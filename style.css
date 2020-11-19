@@ -1,0 +1,79 @@
+
+body{
+    background-color:  hsl(0, 100%, 74%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: none;
+    overflow-y: scroll;
+    font-family: 'poppins';
+
+}
+
+body::after{
+    content: " ";
+    background: url(/images/bg-intro-mobile.png);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    
+}
+
+.signup{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup--title{
+    margin: 3em 2em 1em 2em;
+    
+}
+.signup--title h1 {
+    color: white ;
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+}
+
+.signup--paragraph{
+   padding-left: 1em;
+   padding-right: 1em;
+   text-align: center;
+   margin-bottom: 3em;
+}
+
+.signup--paragraph p{
+
+    font-size: 1.15em;
+    color: white;
+    line-height: 1.5em;
+}
+
+.btn{
+    width: 90%;
+    height: 15%;
+    border-radius: 10px;
+    border: none;
+    background-color: #5E55A3;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+    line-height: 1.5em;
+
+
+}
+.btn span{
+    color: rgba(255, 255, 255) ;
+}
